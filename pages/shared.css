@@ -1,0 +1,81 @@
+#showcase {
+  background-image: url("https://media.istockphoto.com/id/934194258/vector/vector-realistic-black-mustache.jpg?s=612x612&w=0&k=20&c=s8i_jbkCJIUjIoSkMeIh_xVJwCuwS5vAk4vkOw2qBhE=");
+  background-color: white;
+  background-position-x: center;
+  background-position-y: 55px;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  margin-bottom: 0;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+body {
+  padding-bottom: 150px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  margin: auto 0;
+  padding: 16px;
+}
+
+#main-header {
+    background-color: yellow;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+#navbar {
+    background-color: grey;
+    color: #fff;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+  
+  #navbar ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  #navbar li {
+    display: inline;
+    padding-left: 10px;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+  }
+  
+  #navbar a:hover {
+    color: yellow;
+  }
+  
+.main-footer {
+  background: grey;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
