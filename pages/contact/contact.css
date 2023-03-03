@@ -1,0 +1,98 @@
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: gray;
+    text-shadow: 2px 2px black;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgray;
+}
+
+.form {
+    width: 50%;
+    margin-top: 40px;
+    position: relative;
+    display: block;
+    left: 460px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 8px 9px 8px 9px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.ch-box {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    padding-top: 5px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .ch-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+  }
+
+  .ch-box:hover input ~ .checkmark {
+    background-color: white;
+  }
+
+  .ch-box input:checked ~ .checkmark {
+    background-color: green;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .ch-box input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .ch-box .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
