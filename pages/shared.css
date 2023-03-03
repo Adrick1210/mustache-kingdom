@@ -72,14 +72,6 @@ h2 {
   color: yellow;
 }
 
-aside img {
-  position: relative;
-  left: 1500px;
-  top: 27rem;
-  height: 350px;
-  width: 350px;
-}
-
 .footer img {
   position: relative;
   top: 3.1rem;
@@ -97,5 +89,4 @@ aside img {
   width: 100%;
   bottom: 0;
   left: 0;
-  right: 0;
 }

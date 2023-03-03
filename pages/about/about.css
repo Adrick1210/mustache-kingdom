@@ -11,7 +11,7 @@ h1 {
   box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-p {
+.about p {
     text-align: center;
     font-size: 22px;
 }
@@ -29,7 +29,7 @@ p {
     border-radius: 4px;
 }
 
-.insta img {
+.ig img {
     height: 40px;
     width: 40px;
     border-radius: 4px;
